@@ -1,0 +1,30 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:x="jelly:xml">
+<st:contentType value="text/html;charset=UTF-8" />
+<x:doctype name="html" />
+<html>
+
+ <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Flame Graph</title>    
+ 	<link rel="icon" type="image/x-icon" href="${rootURL}/jenkins/plugin/flamegraph-pipeline-plugin/favicon.ico"/>
+
+  </head>
+
+	  <body>
+    	
+    
+    <!-- Scripts SPA application -->
+    
+    
+<!-- funciona 	<img src="${rootURL}/jenkins/plugin/flamegraph-pipeline-plugin/grafica.svg"/> -->
+
+	<object data = "grafica.svg" type="image/svg+xml"> 
+		<img src="${rootURL}/jenkins/plugin/flamegraph-pipeline-plugin/grafica.svg"/>
+	</object>
+
+	
+  </body>
+
+</html>
+</j:jelly>

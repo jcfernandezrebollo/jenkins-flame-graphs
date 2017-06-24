@@ -1,0 +1,9 @@
+META-INF/annotations/hudson.Extension.txt
+urjc/tfg/flamegraphpipelineplugin/FlameStepExecution.class
+urjc/tfg/flamegraphpipelineplugin/FlameStep.stapler
+urjc/tfg/flamegraphpipelineplugin/FlameStep.class
+urjc/tfg/flamegraphpipelineplugin/FlameStep$DescriptorImpl.class
+urjc/tfg/flamegraphpipelineplugin/FlameStepExecution$Callback.class
+urjc/tfg/flamegraphpipelineplugin/Graphic.class
+urjc/tfg/flamegraphpipelineplugin/GraphicAction.class
+META-INF/annotations/hudson.Extension
